@@ -1,0 +1,39 @@
+#during the competition
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Problem description:
+
+time limit per test:    1 second
+memory limit per test:  256 megabytes
+
+In Omkar's last class of math, he learned about the least common multiple, or LCM. 
+LCM(a,b) is the smallest positive integer x which is divisible by both a and b.
+Omkar, having a laudably curious mind, immediately thought of a problem involving the LCM operation: 
+given an integer n, find positive integers a and b such that a+b=n and LCM(a,b) is the minimum value possible.
+Can you help Omkar solve his ludicrously challenging math problem?
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Solution algorithm:
+
+Notice that if we'd found corresponding a and b, then n = a + b, but also 
+a = n1*n2*...*nk*a0, b = n1*n2*...*nk*b0, so n = n1*n2*..*nk*n_k+1, then try to
+find min ni so answer is a = n1*n2*...*n_i-1*1*n_i+1*..*n_k+1, b = n1*...*(n_i - 1)*...*n_k+1.
+Special cases are considered separately (prime numbers and if it's 1).
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Time and memory usage:
+
+Time:   31 ms
+Memory: 3600 kb
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
