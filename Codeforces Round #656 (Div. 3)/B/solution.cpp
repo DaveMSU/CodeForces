@@ -25,5 +25,5 @@ int main(){
 		stree.clear();
 	}
 	
-  return 0;
+  	return 0;
 }
