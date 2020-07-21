@@ -1,0 +1,42 @@
+#during the competition
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Problem description:
+
+time limit per test:    1 second
+memory limit per test:  256 megabytes
+
+You are given two arrays of integers a1,…,an and b1,…,bm ( 1 ≤ n,m ≤ 1000 ). Your task is to find a
+non-empty array c1,…,ck  ( 1 ≤ a_i, b_i ≤ 1000 ) that is a subsequence of a1,…,an, and also a
+subsequence of b1,…,bm. If there are multiple answers, find one of the smallest possible length. If
+there are still multiple of the smallest possible length, find any. If there are no such arrays, you
+should report about it.
+
+A sequence a is a subsequence of a sequence b if a can be obtained from b by deletion of several
+(possibly, zero) elements. For example, [3,1] is a subsequence of [3,2,1] and [4,3,1], but not a
+subsequence of [1,3,3,7] and [3,10,4].
+
+The first line contains a single integer t (1≤t≤1000)  — the number of test cases.
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Solution algorithm:
+
+Notice that task description equale to the problem about is it at least one same number in both arrays.
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Time and memory usage:
+
+Time:   31 ms
+Memory: 3792 kb
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
