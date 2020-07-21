@@ -1,0 +1,40 @@
+#during the competition
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Problem description:
+
+time limit per test:    1 second
+memory limit per test:  256 megabytes
+
+There are n piles of stones  ( 1 ≤ n ≤ 10^5 ), where the i-th pile has ai stones  ( 1 ≤ a_i ≤ 10^9 ).
+Two people play a game, where they take alternating turns removing stones. In a move, a player may
+remove a positive number of stones from the first non-empty pile (the pile with the minimal index,
+that has at least one stone). The first player who cannot make a move (because all piles are empty)
+loses the game. If both players play optimally, determine the winner of the game.
+
+The first line contains a single integer t ( 1 ≤ t ≤ 1000 )  — the number of test cases. 
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Solution algorithm:
+
+Notice that if player (1-st or 2-nd) reach a pile which consists of more than 1 stone, then he have
+strategy to win for sure. The task is reduced to a simpler one - to accurate count amount of '1' at
+the beginning of the array and find first number that greater then 1 (if it exists).
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Time and memory usage:
+
+Time:   140 ms
+Memory: 4048 kb
+
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+====================================================================================================
