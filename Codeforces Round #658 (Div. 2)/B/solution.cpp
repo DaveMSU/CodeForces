@@ -11,7 +11,7 @@ int main(){
 
 	while( t-- ){
 
-		flag = true; // will win first?
+		flag = true; // will win first one?
 		std::cin >> n;
 
 		std::vector <long unsigned int> arr(n);
