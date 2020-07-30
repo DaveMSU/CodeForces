@@ -1,7 +1,5 @@
 #include <iostream>
 
-#define six_ten_fourteen 30
-
 int main(){
 
 	size_t t, n;
