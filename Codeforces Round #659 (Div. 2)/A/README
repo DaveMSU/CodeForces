@@ -16,7 +16,7 @@ strings. So Koa would like to find some strings s1,s2,…,sn+1 which would have 
 a1,a2,…,an. Can you help her? If there are many answers print any. We can show that answer always
 exists for the given constraints.
 
-Each test contains multiple test cases. The first line contains t (1≤t≤100) — the number of test cases.
+Each test contains multiple test cases. The first line contains t ( 1 ≤ t ≤ 100 ) — the number of test cases.
 
 ====================================================================================================
 ----------------------------------------------------------------------------------------------------
@@ -27,13 +27,13 @@ Solution algorithm:
 (from Editorial - https://codeforces.com/blog/entry/80562)
 
 *  Set s1= "aaaa...aaaaaaa" (ie. 200 times 'a').
-*  For i such that (1≤i≤n) set si+1:=si and then flip (ai+1)-th character of si+1 (ie. if it was
+*  For i such that ( 1 ≤ i ≤ n ) set si+1:=si and then flip (ai+1)-th character of si+1 (ie. if it was
    'a' put 'b' otherwise 'a').
 So for each i:
 
   -  si and si+1 will have exactly ai common characters from the prefix.
   -  The (ai+1)-th character of si+1 is different than (ai+1)-th character of si (this character
-     always exists since 0≤ai≤50 and each string has length exactly 200).
+     always exists since 0 ≤ a_i ≤ 50 and each string has length exactly 200).
 
 ====================================================================================================
 ----------------------------------------------------------------------------------------------------
